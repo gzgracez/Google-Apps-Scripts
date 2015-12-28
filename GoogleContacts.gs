@@ -1,3 +1,8 @@
+function main (){ 
+  // addCompanyToGroup("groupName", "company", "title");
+  setCompanyNameAndPosition("groupName", "company", "title");
+}
+
 function addCompanyToGroup(groupName, company, title) {
   var group = ContactsApp.getContactGroup(groupName);
   var contacts = group.getContacts();
